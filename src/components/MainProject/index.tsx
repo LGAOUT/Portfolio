@@ -2,23 +2,23 @@ import styled from "styled-components";
 import { Code2, SquareDashedMousePointer } from "lucide-react";
 import Star from '../../assets/stars.png'
 import UnfilledStar from '../../assets/unfilledstars.png'
-import ProjectImage1 from "../../assets/shopeasy1.png";
-import ProjectImage2 from "../../assets/shopeasy2.png";
-import ProjectImage3 from "../../assets/shopeasy3.png";
-import ProjectImage4 from "../../assets/shopeasy4.png";
+import ProjectImage1 from "../../assets/tonein1.png";
+import ProjectImage2 from "../../assets/tonein2.png";
+import ProjectImage3 from "../../assets/tonein3.png";
+import ProjectImage4 from "../../assets/tonein4.png";
 import cover from "../../assets/desktop.png";
 import MediaGallery from "../MediaGallery";
 
 const content = {
   id: "1",
-  title: "ShopEasy",
+  title: "ToneIn",
   coverImage: cover,
-  description: "ShopEasy is an e-commerce boilerplate with Angular frontend, Spring Boot backend, MySQL database, Kafka events, ELK stack integration, and deployment using Docker Compose or Kubernetes, serving as a modern and scalable foundation for online stores.",
-  note: "This project is a portfolio and learning base, currently with a simplified checkout and some mock data. Future improvements include payment gateway, persistent cart, and CI/CD pipeline. It can be adapted to other databases or cloud providers.",
-  startDate: "2025-04",
+  description: "Tone In is a full-stack social network and marketplace for the music industry, built with Next.js 16, Supabase, and Stripe. It combines a community feed (posts, audio, video, likes, comments, follows) with a professional marketplace for services and masterclasses, real-time messaging, group communities, and Google OAuth — deployed on Vercel.",
+  note: "This project is in active development. Current implementation covers auth, profiles, feed with media posts, real-time chat, notifications, explore/discovery, groups, services marketplace, Stripe Checkout, and masterclass platform with video chapters. Planned improvements include a recommendation algorithm, Mux video migration, mobile app (Expo), analytics dashboard, and full-text search.",
+  startDate: "2024-04",
   finishDate: "Present",
-  repoLink: "https://github.com/victormoni/ShopEasy",
-  demoLink: null,
+  repoLink: "https://github.com/LGAOUT/tone-in",
+  demoLink: "https://tone-in.vercel.app/feed",
   rating: 5,
 
   categories: [

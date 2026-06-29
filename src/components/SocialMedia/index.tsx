@@ -1,9 +1,7 @@
 import styled from "styled-components"
-import codepen from '../../assets/codepen.png'
-import dailydev from '../../assets/daily-dev.svg'
+
 import github from '../../assets/github.svg'
 import linkedin from '../../assets/linkedin.png'
-import stackoverflow from '../../assets/stackoverflow.svg'
 
 
 export const SocialFooter = () => {
@@ -18,7 +16,7 @@ export const SocialFooter = () => {
 
                         <SocialGrid>
                             <SocialLink
-                                href="https://github.com/victormoni"
+                                href="https://github.com/LGAOUT"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="github"
@@ -31,7 +29,7 @@ export const SocialFooter = () => {
                             </SocialLink>
 
                             <SocialLink
-                                href="https://www.linkedin.com/in/victormoni"
+                                href="https://www.linkedin.com/in/yassin-lgaout"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="linkedin"
@@ -43,49 +41,12 @@ export const SocialFooter = () => {
                                 </div>
                             </SocialLink>
 
-                            <SocialLink
-                                href="https://app.daily.dev/victormoni"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="dailydev"
-                            >
-                                <img src={dailydev} alt="DailyDev" />
-                                <div className="social-info">
-                                    <span className="social-name">daily.dev</span>
-                                    <span className="social-desc">Reads and bookmarks</span>
-                                </div>
-                            </SocialLink>
 
-                              <SocialLink
-                                href="https://stackoverflow.com/users/9859219/victor-moni"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="stackoverflow"
-                            >
-                                <img src={stackoverflow} alt="StackOverflow" />
-                                <div className="social-info">
-                                    <span className="social-name">Stack Overflow</span>
-                                    <span className="social-desc">Questions and answers</span>
-                                </div>
-                            </SocialLink>
-
-                            <SocialLink
-                                href="https://codepen.io/victormoni"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="codepen"
-                            >
-                                <img src={codepen} alt="Codepen" />
-                                <div className="social-info">
-                                    <span className="social-name">Codepen</span>
-                                    <span className="social-desc">Demos and experiments</span>
-                                </div>
-                            </SocialLink>
                         </SocialGrid>
                     </SocialSection>
 
                     <FooterBottom>
-                        <p>&copy; 2025 Victor Moni. Full Stack Developer</p>
+                        <p>&copy; 2025 Yassin Lgaout. Full Stack Developer</p>
                         <span>Built with ❤️ and lots of code</span>
                     </FooterBottom>
                 </FooterContent>

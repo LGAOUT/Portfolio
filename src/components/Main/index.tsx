@@ -52,7 +52,7 @@ export const Main = () => {
             <Introduction id="home">
                 <div className="info">
                     <p>My name is</p>
-                    <h1>Victor Moni</h1>
+                    <h1>Yassin Lgaout</h1>
                     <span> &gt; Full Stack Developer</span>
                     <div className="cv-style">
                         <a href={resume} className="download-cv links" download>Download Resume</a>
@@ -63,13 +63,13 @@ export const Main = () => {
                     <p>↓</p>
                 </div>
                 <div className="social-media">
-                    <a href="https://github.com/victormoni" className="logo" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/LGAOUT" className="logo" target="_blank" rel="noopener noreferrer">
                         <img src={githubIcon} alt="github icon" />
                     </a>
-                    <a href="https://www.linkedin.com/in/victormoni" className="logo" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/yassin-lgaout/" className="logo" target="_blank" rel="noopener noreferrer">
                         <img src={linkedinIcon} alt="linkedin icon" />
                     </a>
-                    <a href="https://wa.me/5511943936479" className="logo" target="_blank" rel="noopener norefereer">
+                    <a href="https://wa.me/33755274909" className="logo" target="_blank" rel="noopener norefereer">
                         <img src={whatsappIcon} alt="whatsapp icon" />
                     </a>
                 </div>

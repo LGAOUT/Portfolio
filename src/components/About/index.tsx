@@ -5,20 +5,20 @@ import image from '../../assets/notebook.png'
 
 const About = () => {
     const [currentExperience, setCurrentExperience] = useState<string>(
-        "Full Stack Developer with two years of experience in web applications and microservices. Solid expertise in Spring Boot, Angular and Next.js, with hands-on DevOps practices. Currently pursuing a postgraduate degree in Cloud Computing, fluent in English, with a proven track record of delivering MVPs and optimizing digital processes."
+        "Full-stack Developer with two years of experience building modern web applications and scalable interfaces. Skilled in React, TypeScript, and NestJS, with solid foundations in real-time systems and geospatial visualization. Experienced with CI/CD, Auth0 integration, and clean code practices. Passionate about crafting performant, elegant, and maintainable user experiences, now aiming to specialize in Frontend Development"
     );
 
     const experiences = [
         {
-            title: "Frontend Developer - Search Price",
-            description: "Developed a responsive, mobile-first web application with Next.js. Implemented dark/light mode and custom hooks for state management. Integrated with Node.js API and continuous deployment on Vercel. Applied best practices in accessibility, performance, and componentization.",
-            date: "06/2025 - 07/2025",
+            title: "Full-stack Developer - Macaron.ai",
+            description: "Full-Stack developer with a product mindset. I have participated in Macaron`s Control Center migration to React, centralized auth with Auth0 (RBAC) and built real-time UIs with Socket.io. I care about UX, team quality (CI/CD, TDD, Husky, ESLint/Prettier) and advanced mapping (Deck.GL/Nebula.GL) to deliver reliable, scalable tools.",
+            date: "06/2024 - 11/2024",
             highlight: "Collaboration",
-            tags: ["Start-up", "NextJs", "Angular", "Spring Boot", "Scrum", "MVP" ]
+            tags: ["ReactJS", "TypeScript", "Angular", "Socket.io", "Docker", "Auth0", "NestJS", "MongoDB" ]
         },
         {
-            title: "E-commerce Manager - Own Company",
-            description: "Managed sales on Mercado Livre, Shopee, Amazon, and Magalu. Coordinated a team for customer service and logistics. Created listings, issued invoices, and developed commercial strategies.",
+            title: "E-commerce Ads Manager",
+            description: "Managed sales on Facebook Marketplace, Shopify, Amazon, and Etsy. Coordinated a team for customer service and logistics. Created listings, issued invoices, and developed commercial strategies.",
             date: "06/2021 - 01/2024",
             highlight: "Leadership",
             tags: ["Leadership", "Sales", "Marketplaces", "Invoices",  "Logistics", "Comercial Strategies"]
