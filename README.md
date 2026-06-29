@@ -1,4 +1,4 @@
-# 📌 Victor Moni's Portfolio
+# 📌 Yassin LGAOUT's Portfolio
 
 Welcome to my personal portfolio!
 A front-end project built with **React**, **TypeScript**, and **Vite**, featuring an elegant design and continuous deployment via **Vercel**.
@@ -6,8 +6,8 @@ A front-end project built with **React**, **TypeScript**, and **Vite**, featurin
 ## 🚀 Live Demo
 
 Check out the live site:
-👉 [**victormoni.dev**](https://victormoni.dev)
-👉 [**victormoni.vercel.app**](https://victormoni.vercel.app)
+
+👉 [**lgaout.vercel.app**](https://lgaout.vercel.app)
 
 ---
 
@@ -52,26 +52,4 @@ npm run build
 npm run preview
 ```
 
-*(Adjust according to the scripts defined in `package.json`.)*
 
----
-
-## ✨ Features
-
-- Modern and responsive design for personal portfolio
-- Component-based architecture with React and type safety using TypeScript
-- Optimized builds with Vite
-- Automatic deployment and preview with Vercel
-
----
-
-## 👨‍💻 About the Author
-
-I am **Victor Moni**, a Full Stack Developer passionate about technology and building modern applications.
-Always learning, improving, and sharing knowledge.
-
-🌐 [Portfolio](https://victormoni.dev)
-💼 [LinkedIn](https://linkedin.com/in/victormoni)
-📂 [GitHub](https://github.com/victormoni)
-
----
